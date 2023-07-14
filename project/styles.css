@@ -1,0 +1,52 @@
+/* Add your custom CSS styles here */
+#hero {
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  #about img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #services .card {
+    transition: transform 0.3s;
+  }
+  
+  .service1{
+    height: auto;
+  }
+  .service2{
+    height: 50%;
+  }
+  .service3{
+    height: 50%;
+  }
+
+  #services .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 767px) {
+    #hero {
+      height: 50vh;
+    }
+  }
+  
